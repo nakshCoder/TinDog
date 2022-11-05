@@ -1,0 +1,189 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#title {
+  background-color: rgb(255, 76, 104);
+}
+
+.navbar {
+  padding: 0px !important;
+}
+
+.navbar-brand {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.5rem !important;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+
+.title-container {
+  padding: 3% 10%;
+  width: 80% !important;
+}
+
+.title-head {
+  margin-bottom: 50px;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.btn-outline-light {
+  margin-left: 20px;
+}
+
+.title-image {
+  width: 45%;
+  transform: rotateZ(30deg);
+}
+
+.title-box {
+  margin-top: 50px;
+}
+
+.title-about-box {
+  text-align: center;
+}
+
+.title-about-box img {
+  position: absolute;
+  right: 25%;
+}
+
+.title-button {
+  margin: 20px 20px 20px 0px;
+}
+
+#features {
+  position: relative;
+  background-color: #fff;
+  padding: 100px 0px;
+}
+
+.features-container {
+  width: 90% !important;
+}
+
+.features-box {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.features-box p {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  font-size: 3rem !important;
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  color: #fff;
+  padding: 100px 0px;
+  background-color: #ef8172;
+}
+
+.carousel-inner {
+  width: 80% !important;
+  margin: auto;
+}
+
+.testimonials-box {
+  text-align: center;
+}
+
+.testimonials-box h2 {
+  font-size: 2rem;
+}
+.testimonials-box img {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  /* padding-bottom: 60px; */
+  text-align: center;
+}
+
+#press img {
+  width: 10%;
+  margin: 0px 50px 50px 50px;
+}
+
+#pricing {
+  margin: 100px 0px;
+  text-align: center;
+}
+
+#pricing .pricing-container {
+  width: 90%;
+  margin: auto !important;
+}
+
+.pricing-para {
+  color: #8f8f8f;
+  font-size: 0.9rem;
+}
+
+.price-box {
+  margin: 50px 0px !important;
+}
+
+#cta {
+  background-color: rgb(255, 76, 104);
+  text-align: center;
+  padding: 70px 0px;
+}
+
+#cta h3 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  margin: 0px 10px;
+}
+
+#footer {
+  margin: 100px 0px;
+}
+
+.footer-box {
+  text-align: center;
+}
+
+.footer-box ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.footer-box ul li a {
+  color: #000;
+}
+
+.footer-box p {
+  color: #8f8f8f;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 992px) {
+  .title-box {
+    padding-bottom: 50px;
+  }
+
+  .title-about-box {
+    display: none;
+  }
+}
